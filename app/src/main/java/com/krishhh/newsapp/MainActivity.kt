@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         swipeRefreshLayout = findViewById(R.id.swipeRefreshLayout)
 
         // Initial API call to fetch news
+
         fetchNews()
 
         // Set up Swipe-to-Refresh listener
