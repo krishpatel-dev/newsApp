@@ -28,21 +28,23 @@ The app shows articles in a clean, scrollable list with images, headlines, and d
 
 📂 Project Structure
 
-newsApp/
+'''
+📁 newsApp
 │
-├── app/ # Android app module
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/... # Kotlin source files
-│ │ │ └── res/ # Layouts, drawables, values
-│ └── AndroidManifest.xml
+├── 📁 app # Android app module
+│ ├── 📁 src
+│ │ ├── 📁 main
+│ │ │ ├── 📁 java # Kotlin source files
+│ │ │ └── 📁 res # Layouts, drawables, values
+│ └── 📄 AndroidManifest.xml
 │
-├── gradle/ # Gradle wrapper files
-├── build.gradle.kts
-├── settings.gradle.kts
-├── gradlew
-├── gradlew.bat
-└── README.md
+├── 📁 gradle # Gradle wrapper files
+├── 📄 build.gradle.kts
+├── 📄 settings.gradle.kts
+├── 📄 gradlew
+├── 📄 gradlew.bat
+└── 📄 README.md
+'''
 
 
 ---
