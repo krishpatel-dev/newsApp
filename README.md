@@ -28,7 +28,7 @@ The app shows articles in a clean, scrollable list with images, headlines, and d
 
 📂 Project Structure
 
-'''
+```
 📁 newsApp
 │
 ├── 📁 app # Android app module
@@ -44,7 +44,7 @@ The app shows articles in a clean, scrollable list with images, headlines, and d
 ├── 📄 gradlew
 ├── 📄 gradlew.bat
 └── 📄 README.md
-'''
+```
 
 
 ---
