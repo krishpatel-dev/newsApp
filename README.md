@@ -1,17 +1,69 @@
-# 📰 News App (Android)
-A Kotlin-based news application that fetches the latest headlines using **NewsAPI** and displays them in a scrollable **RecyclerView** with **Swipe-to-Refresh** functionality.
+📰 News App (Android)
 
-## 📌 Features
-✅ Fetches real-time news from **NewsAPI**  
-✅ **Swipe to Refresh** for updating news content dynamically  
-✅ Uses **Material Design Cards** for a clean UI  
-✅ **Coil** for efficient image loading  
-✅ **Retrofit + Gson** for API integration  
-✅ **RecyclerView** for smooth scrolling  
+A Kotlin-based Android application that fetches and displays the latest news using [NewsAPI](https://newsapi.org).  
+The app shows articles in a clean, scrollable list with images, headlines, and descriptions.
 
-## 🛠️ Tech Stack
-**Language**: Kotlin  
-**UI Components**: RecyclerView, MaterialCardView, SwipeRefreshLayout  
-**Networking**: Retrofit, Gson  
-**Image Loading**: Coil  
-**API Source**: [NewsAPI](https://newsapi.org/)  
+---
+
+✨ Features
+
+- Fetches real-time news from **NewsAPI**  
+- Pull-to-refresh support (SwipeRefreshLayout)  
+- Clean and responsive UI with **Material Design 3**  
+- Display news in a **RecyclerView with CardViews**  
+- Efficient image loading using **Coil**  
+- REST API integration using **Retrofit + Gson**
+
+---
+
+🛠 Tech Stack
+
+- **Language**: Kotlin  
+- **Networking**: Retrofit + Gson  
+- **Image Loading**: Coil  
+- **UI Components**: RecyclerView, SwipeRefreshLayout, MaterialCardView  
+- **API**: [NewsAPI](https://newsapi.org)  
+
+---
+
+📂 Project Structure
+
+newsApp/
+│
+├── app/ # Android app module
+│ ├── src/
+│ │ ├── main/
+│ │ │ ├── java/... # Kotlin source files
+│ │ │ └── res/ # Layouts, drawables, values
+│ └── AndroidManifest.xml
+│
+├── gradle/ # Gradle wrapper files
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradlew
+├── gradlew.bat
+└── README.md
+
+
+---
+
+🚀 Getting Started
+
+1. Clone the repository
+bash
+git clone https://github.com/krishpatel-dev/newsApp.git
+
+2. Get a NewsAPI key
+
+Go to NewsAPI
+Create a free account and get your API key
+
+3. Add API key in project
+
+In your local.properties or BuildConfig, add:
+NEWS_API_KEY="YOUR_API_KEY_HERE"
+
+4. Run the project
+
+Open the project in Android Studio
+Sync Gradle and run on an emulator or device
